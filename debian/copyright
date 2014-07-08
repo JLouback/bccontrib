@@ -1,0 +1,34 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bccontrib
+Source: https://github.com/jitsi/bccontrib
+
+Files: *
+Copyright: 2014, Ingo Bauersachs
+Copyright (C) 2004, 2006 Free Software Foundation, Inc.
+Copyright (c) 2010 Alberto Fajardo and Werner Dittmann
+License: 
+The projects does not have a single license.
+
+MIT License
+-----------
+Applies to:
+* Skein (Digest)
+* ThreefishCipher
+* SkeinMac
+* ParametersForSkein
+* ParametersForThreefish
+* ByteLong
+
+Copyright (c) 2010 Alberto Fajardo and Werner Dittmann
+
+GPL with Classpath Exception
+----------------------------
+* FortunaGenerator
+
+Files: debian/*
+Copyright: 2014, Juliana Louback <juliana.m.louback@gmail.com>
+License: GPL+Exception/MIT
+
+License: GPL+Exception/MIT
+On Debian systems, the full text of the GPL+Exception and MIT licenses 
+can be found in the directory 'usr/share/common-licenses'

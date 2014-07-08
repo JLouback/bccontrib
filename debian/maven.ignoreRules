@@ -1,0 +1,3 @@
+
+org.apache.felix maven-bundle-plugin * * * *
+org.bouncycastle bcprov-jdk15on * * * *

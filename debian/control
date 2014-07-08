@@ -1,0 +1,31 @@
+Source: bccontrib
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Juliana Louback <juliana.m.louback@gmail.com>
+Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
+Build-Depends-Indep: junit4, default-jdk-doc, libmaven-javadoc-plugin-java 
+Standards-Version: 3.9.5
+Vcs-Git: https://github.com/JLouback/bccontrib.git
+Vcs-Browser: https://github.com/JLouback/bccontrib
+Homepage: https://github.com/jitsi/bccontrib
+
+Package: bccontrib-java
+Architecture: all
+Depends: ${misc:Depends}, ${maven:Depends}
+Suggests: ${maven:OptionalDepends}, bccontrib-java-doc
+Description: bccontrib
+ Java implementation of Skein hash function, Threefish encryption function
+ and the Fortuna random generator. API designed to be compatible to BouncyCastle.
+
+Package: bccontrib-java-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}, ${maven:DocDepends}
+Recommends: ${maven:DocOptionalDepends}
+Suggests: bccontrib-java
+Description: Documentation for bccontrib
+ Java implementation of Skein hash function, Threefish encryption function
+ and the Fortuna random generator. API designed to be compatible to BouncyCastle.
+ .
+ This package contains the API documentation of bccontrib-java.
