@@ -1,0 +1,6 @@
+bccontrib (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #754198)  <754198 is the bug number of your
+    ITP>
+
+ -- Juliana Louback <juliana.m.louback@gmail.com>  Tue, 08 Jul 2014 12:35:16 -0400
